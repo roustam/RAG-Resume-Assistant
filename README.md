@@ -7,7 +7,7 @@ RAG is still in development and is not implemented yet.
 ## 🌟 Features
 
 - **Interactive Chat Interface** - Clean, responsive Gradio-based UI
-- **RAG Capabilities** - Upload and query documents for context-aware responses
+- **RAG Capabilities** - Upload and query documents for context-aware responses - not implemented yet, still in development
 - **Thinking Visualization** - Real-time display of the LLM's reasoning process
 - **Document Management** - Upload, view, and manage multiple documents
 - **Streaming Responses** - Watch responses generate in real-time
@@ -184,7 +184,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Your Name** - [@roustam](https://github.com/roustam)
 **Reach me on Telegram** - [@roustam](https://t.me/Rou1999)
-Project Link: [https://github.com/yourusername/rags-chat](https://github.com/yourusername/rags-chat)
+Project Link: [RAG-Resume-Assistant](https://github.com/roustam/RAG-Resume-Assistant)
 
 ---
 
