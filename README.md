@@ -41,35 +41,47 @@ See [ARCHITECTURE.md](app/ARCHITECTURE.md) for detailed documentation.
 
 ### Installation
 
-1. Clone the repository:
+1. Install Ollama:
+Get it from [Ollama](https://ollama.com/download)
+Pull your favourite model. I advise using deepseek-r1: 8b.
+
+```bash
+ollama pull deepseek-r1:8b
+```
+
+2. Clone the repository:
 ```bash
 git clone https://github.com/roustam/RAG-Resume-Assistant
 cd rags-chat
 ```
+3. Configure settings:
+```bash
+# Edit app/settings.py to set your Ollama host and model
+export OLLAMA_HOST="http://localhost:11434"
+export MODEL="deepseek-r1:8b"
+```
 
-2. Create and activate virtual environment:
+Deepseek is configured by default, change it if you're going to use another model.
+
+
+4. Create and activate virtual environment:
 ```bash
 cd app
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install dependencies:
+5. Install dependencies:
 ```bash
 pip install -r reqs.txt
 ```
 
-4. Configure settings:
+5. Run ollama service in a separate terminal window:
 ```bash
-# Edit app/settings.py to set your Ollama host and model
-export OLLAMA_HOST="http://localhost:11434"
-export MODEL="llama2"
+ollama serve
 ```
-
-### Running the Application
-
+6. Run the app with:
 ```bash
-cd app
 python main.py
 ```
 
