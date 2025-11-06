@@ -182,7 +182,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-**Your Name** - [@roustam](https://github.com/roustam)
+**Github account** - [@roustam](https://github.com/roustam)
 **Reach me on Telegram** - [@roustam](https://t.me/Rou1999)
 Project Link: [RAG-Resume-Assistant](https://github.com/roustam/RAG-Resume-Assistant)
 
