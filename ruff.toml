@@ -1,0 +1,14 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = [
+    "E",  # pycodestyle errors (includes indentation, whitespace, etc.)
+    "F",  # pyflakes (undefined names, unused imports, …)
+    "B",  # flake8-bugbear (sensible correctness checks)
+]
+
+
+[format]
+quote-style = "double"
+indent-style = "space"
