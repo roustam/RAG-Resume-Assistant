@@ -85,7 +85,8 @@ ollama serve
 python main.py
 ```
 
-The application will start and open in your default browser at `http://localhost:7860`.
+The application will start and you can now reach it on your localhost at http://127.0.0.1:7860
+
 
 ## 💡 Usage
 
