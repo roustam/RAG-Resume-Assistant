@@ -2,6 +2,8 @@
 
 A production-grade conversational AI application featuring Retrieval-Augmented Generation (RAG) capabilities, built with Gradio and Ollama. The application provides an intuitive chat interface with document upload functionality and real-time visualization of the AI's thinking process.
 
+RAG is still in development and is not implemented yet.
+
 ## 🌟 Features
 
 - **Interactive Chat Interface** - Clean, responsive Gradio-based UI
@@ -35,7 +37,7 @@ See [ARCHITECTURE.md](app/ARCHITECTURE.md) for detailed documentation.
 
 - Python 3.8+
 - [Ollama](https://ollama.ai/) installed and running
-- An Ollama model pulled (e.g., `ollama pull llama2`)
+- An Ollama model pulled (e.g., `ollama pull deepseek-r1`)
 
 ### Installation
 
@@ -123,13 +125,6 @@ rags-chat/
 │   └── ARCHITECTURE.md      # Architecture docs
 ├── README.md               # This file
 └── REFACTORING_SUMMARY.md  # Refactoring details
-```
-
-## 🧪 Testing
-
-To verify the installation:
-```bash
-python -m py_compile main.py handlers/*.py ui/*.py
 ```
 
 ## 🔧 Configuration
