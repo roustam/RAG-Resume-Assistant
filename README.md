@@ -174,8 +174,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-**Your Name** - [@yourhandle](https://twitter.com/yourhandle)
-
+**Your Name** - [@roustam](https://github.com/roustam)
+**Reach me on Telegram** - [@roustam](https://t.me/Rou1999)
 Project Link: [https://github.com/yourusername/rags-chat](https://github.com/yourusername/rags-chat)
 
 ---
