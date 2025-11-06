@@ -43,7 +43,7 @@ See [ARCHITECTURE.md](app/ARCHITECTURE.md) for detailed documentation.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/rags-chat.git
+git clone https://github.com/roustam/RAG-Resume-Assistant
 cd rags-chat
 ```
 
